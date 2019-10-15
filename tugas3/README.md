@@ -6,18 +6,18 @@
  - client `cd client && python client.py`
 
 ### Available Commands
-- `list` : get all files in server storage directory  \
+- `ls` : get all files in server storage directory  \
   option : `-a` / `-all`\
-  example : `list -a`
-- `create` : make new file/files  
-  syntax : `create file1 file2 file3`  \
-  example : `create text.txt "lorem ipsum.py"`
-- `delete` : delete file/files  
-  syntax : `delete file1 file2 file3`  \
-  example : `delete text.txt "lorem ipsum.py"`
-- `read` : read file  
-  syntax : `read file`  \
-  example : `read text.txt`
+  example : `ls -a`
+- `mk` : make new file/files  
+  syntax : `mk file1 file2 file3`  \
+  example : `mk text.txt "lorem ipsum.py"`
+- `rm` : delete file/files  
+  syntax : `rm file1 file2 file3`  \
+  example : `rm text.txt "lorem ipsum.py"`
+- `cat` : read file  
+  syntax : `cat file`  \
+  example : `cat text.txt`
 - `update` : update file or create new file if not exists  
   option : `--append` / `-a`, `--overwrite` / `-o`\
   syntax : `update option file content`  \

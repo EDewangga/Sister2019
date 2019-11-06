@@ -36,7 +36,7 @@ if __name__=='__main__':
             print(proxy.read(command[1]))
         elif command[0] == 'update':
             print(proxy.update(command[1],command[2],namainstance))
-        elif command[0] == 'rm':
+        elif command[0] == 'delete':
             print(proxy.delete(command[1],namainstance))
         elif command[0] == 'ls':
             print(proxy.list())
@@ -45,7 +45,7 @@ if __name__=='__main__':
             print("1. create [filename]")
             print("2. read [filename]")
             print("3. update [filename]")
-            print("4. rm [filename]")
+            print("4. delete [filename]")
             print("5. ls")
             print("6. help")
             print("7. exit")
